@@ -1,4 +1,4 @@
-![b1ndgithub](https://github.com/Team-B1ND/.github/assets/98750438/17b90b09-d819-4a07-a979-d35282739cfa)
+![b1ndgithub](https://github.com/Team-B1ND/.github/assets/98750438/026ba732-38da-42fa-a570-ee2029c13790)
 
 ---
 
