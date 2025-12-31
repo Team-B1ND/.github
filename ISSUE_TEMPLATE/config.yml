@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 팀 채팅
+      url: https://discord.gg/team-b1nd
+          about: 간단한 질문은 팀 채팅을 이용해주세요
+            - name: 문서
+                url: https://github.com/Team-B1ND/b1nd-docs
+                    about: 사용법은 문서를 참고해주세요
