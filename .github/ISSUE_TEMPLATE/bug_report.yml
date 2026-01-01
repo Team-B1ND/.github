@@ -18,8 +18,7 @@ body:
       description: 버그가 발생한 플랫폼을 선택해주세요.
       options:
         - Web
-        - Android
-        - iOS
+        - App
         - Server
         - 기타
     validations:
