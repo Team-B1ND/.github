@@ -1,0 +1,81 @@
+# # CODEOWNERS file for Team-B1ND organization
+# # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# # Global owners - Team leads and core maintainers
+# * @team-b1nd/core-team
+
+# # Backend / Server
+# *.java @team-b1nd/backend-team
+# *.kt @team-b1nd/backend-team
+# *.rs @team-b1nd/backend-team
+# *.py @team-b1nd/backend-team
+# *.sql @team-b1nd/backend-team
+# Dockerfile* @team-b1nd/backend-team @team-b1nd/devops
+# **/server/** @team-b1nd/backend-team
+# **/backend/** @team-b1nd/backend-team
+
+# # Frontend / Web
+# *.ts @team-b1nd/frontend-team
+# *.tsx @team-b1nd/frontend-team
+# *.js @team-b1nd/frontend-team
+# *.jsx @team-b1nd/frontend-team
+# *.vue @team-b1nd/frontend-team
+# *.html @team-b1nd/frontend-team
+# *.css @team-b1nd/frontend-team
+# *.scss @team-b1nd/frontend-team
+# **/web/** @team-b1nd/frontend-team
+# **/frontend/** @team-b1nd/frontend-team
+# package.json @team-b1nd/frontend-team
+# yarn.lock @team-b1nd/frontend-team
+# pnpm-lock.yaml @team-b1nd/frontend-team
+
+# # Android
+# *.kt @team-b1nd/android-team
+# *.xml @team-b1nd/android-team
+# build.gradle* @team-b1nd/android-team
+# gradle* @team-b1nd/android-team
+# **/android/** @team-b1nd/android-team
+# **/app/src/main/** @team-b1nd/android-team
+
+# # iOS
+# *.swift @team-b1nd/ios-team
+# *.h @team-b1nd/ios-team
+# *.m @team-b1nd/ios-team
+# *.mm @team-b1nd/ios-team
+# *.plist @team-b1nd/ios-team
+# Podfile* @team-b1nd/ios-team
+# **/ios/** @team-b1nd/ios-team
+# *.xcodeproj/** @team-b1nd/ios-team
+# *.xcworkspace/** @team-b1nd/ios-team
+
+# # Design System (DDS - Dodam Design System)
+# **/dds/** @team-b1nd/design-team @team-b1nd/frontend-team
+# **/design-system/** @team-b1nd/design-team @team-b1nd/frontend-team
+# **/components/** @team-b1nd/design-team @team-b1nd/frontend-team
+
+# # DevOps & Infrastructure
+# *.yml @team-b1nd/devops
+# *.yaml @team-b1nd/devops
+# .github/workflows/** @team-b1nd/devops
+# docker-compose.yml @team-b1nd/devops
+# .dockerignore @team-b1nd/devops
+# *.tf @team-b1nd/devops
+# *.hcl @team-b1nd/devops
+# k8s/ @team-b1nd/devops
+# **/kubernetes/** @team-b1nd/devops
+
+# # Documentation
+# *.md @team-b1nd/core-team
+# docs/ @team-b1nd/core-team
+# **/docs/** @team-b1nd/core-team
+# README* @team-b1nd/core-team
+
+# # Configuration & Settings
+# .gitignore @team-b1nd/core-team
+# .eslintrc* @team-b1nd/frontend-team
+# .prettierrc* @team-b1nd/frontend-team
+# tsconfig.json @team-b1nd/frontend-team
+# jest.config* @team-b1nd/frontend-team
+# vite.config* @team-b1nd/frontend-team
+# webpack.config* @team-b1nd/frontend-team
+# tailwind.config* @team-b1nd/frontend-team
