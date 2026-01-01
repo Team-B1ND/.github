@@ -18,8 +18,7 @@ body:
       description: 어느 플랫폼의 개선인가요?
       options:
         - Web
-        - Android
-        - iOS
+        - App
         - Server
         - 전체 플랫폼
         - 기타
