@@ -1,10 +1,10 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: 팀 채팅
-    url: https://discord.gg/team-b1nd
-    about: 간단한 질문은 팀 채팅을 이용해주세요
+  - name: 일반 이슈 생성
+    url: https://github.com/Team-B1ND/dodam/issues/new
+    about: 일반적인 이슈를 생성해주세요
   - name: 도담도담 문서
-    url: https://docs.dodam.b1nd.com
+    url: https://docs.b1nd.com
     about: 사용법은 문서를 참고해주세요
   - name: Team-B1ND 공식 홈페이지
     url: https://b1nd.com
