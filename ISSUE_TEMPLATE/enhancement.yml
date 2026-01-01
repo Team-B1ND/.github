@@ -1,0 +1,85 @@
+name: 개선 제안
+description: 기존 기능을 개선해주세요!
+title: "[Enhancement] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 개선 제안 가이드
+        기존 기능을 어떻게 개선하면 좋을지 알려주세요.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 대상 플랫폼
+      description: 어느 플랫폼의 개선인가요?
+      options:
+        - Web
+        - Android
+        - iOS
+        - Server
+        - 전체 플랫폼
+        - 기타
+      multiple: true
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 개선 분야
+      description: 어떤 분야의 개선인가요?
+      options:
+        - UI/UX
+        - 성능
+        - 접근성
+        - 보안
+        - 코드 품질
+        - 문서
+        - 기타
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 현재 상황
+      description: 현재 어떻게 동작하고 있나요?
+      placeholder: "예: 급식 정보를 불러올 때 로딩 인디케이터가 없어서 응답이 느린지 알 수 없습니다."
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: 개선 제안
+      description: 어떻게 개선하면 좋을까요?
+      placeholder: "예: API 호출 중 스켈레톤 UI를 표시하여 로딩 상태를 명확히 전달"
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: 기대 효과
+      description: 이 개선으로 얻을 수 있는 이점은 무엇인가요?
+      placeholder: |
+        예:
+        - 사용자 경험 향상
+        - 앱이 느리다는 오해 방지
+        - 체감 속도 개선
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 참고 자료
+      description: 스크린샷, 참고 링크, 디자인 시안 등
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 추가 정보
+      description: 다른 정보가 있나요?
