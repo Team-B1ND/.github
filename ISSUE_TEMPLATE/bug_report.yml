@@ -1,7 +1,7 @@
 name: 버그 리포트
 description: 버그나 오류를 발견하셨나요? 상세히 알려주세요.
 title: "[Bug] "
-labels: ["bug"]
+labels: ["type: bug"]
 assignees: []
 
 body:

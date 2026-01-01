@@ -1,7 +1,7 @@
 name: 개선 제안
 description: 기존 기능을 개선해주세요!
 title: "[Enhancement] "
-labels: ["enhancement"]
+labels: ["type: enhancement"]
 assignees: []
 
 body:
